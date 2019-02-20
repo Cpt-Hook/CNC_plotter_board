@@ -14891,7 +14891,7 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$2" library="mine" deviceset="BUCK-CONVERTER" device=""/>
-<part name="PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="ESP_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -14915,29 +14915,29 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <instance part="LF33CV" gate="A1" x="154.94" y="48.26" smashed="yes">
 <attribute name="NAME" x="147.32" y="51.435" size="1.778" layer="95"/>
 </instance>
-<instance part="GREEN" gate="G$1" x="50.8" y="38.1" smashed="yes">
-<attribute name="NAME" x="54.356" y="33.528" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="56.515" y="33.528" size="1.778" layer="96" rot="R90"/>
+<instance part="GREEN" gate="G$1" x="55.88" y="38.1" smashed="yes">
+<attribute name="NAME" x="59.436" y="33.528" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="61.595" y="33.528" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="YELLOW" gate="G$1" x="60.96" y="38.1" smashed="yes">
-<attribute name="NAME" x="64.516" y="33.528" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="66.675" y="33.528" size="1.778" layer="96" rot="R90"/>
+<instance part="YELLOW" gate="G$1" x="66.04" y="38.1" smashed="yes">
+<attribute name="NAME" x="69.596" y="33.528" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="71.755" y="33.528" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="RED" gate="G$1" x="71.12" y="38.1" smashed="yes">
-<attribute name="NAME" x="74.676" y="33.528" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="76.835" y="33.528" size="1.778" layer="96" rot="R90"/>
+<instance part="RED" gate="G$1" x="76.2" y="38.1" smashed="yes">
+<attribute name="NAME" x="79.756" y="33.528" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="81.915" y="33.528" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R1" gate="G$1" x="71.12" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.6186" y="29.21" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="67.818" y="29.21" size="1.778" layer="96" rot="R270"/>
+<instance part="R1" gate="G$1" x="76.2" y="25.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="77.6986" y="29.21" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="72.898" y="29.21" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R2" gate="G$1" x="60.96" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="62.4586" y="29.21" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="57.658" y="29.21" size="1.778" layer="96" rot="R270"/>
+<instance part="R2" gate="G$1" x="66.04" y="25.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="67.5386" y="29.21" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="62.738" y="29.21" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R3" gate="G$1" x="50.8" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="52.2986" y="29.21" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="47.498" y="29.21" size="1.778" layer="96" rot="R270"/>
+<instance part="R3" gate="G$1" x="55.88" y="25.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="57.3786" y="29.21" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="52.578" y="29.21" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R4" gate="G$1" x="99.06" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="100.5586" y="72.39" size="1.778" layer="95" rot="R270"/>
@@ -15043,8 +15043,8 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <instance part="P+4" gate="1" x="137.16" y="55.88" smashed="yes">
 <attribute name="VALUE" x="134.62" y="50.8" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND5" gate="1" x="60.96" y="10.16" smashed="yes">
-<attribute name="VALUE" x="58.42" y="7.62" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="66.04" y="10.16" smashed="yes">
+<attribute name="VALUE" x="63.5" y="7.62" size="1.778" layer="96"/>
 </instance>
 <instance part="GND6" gate="1" x="15.24" y="53.34" smashed="yes" rot="R180">
 <attribute name="VALUE" x="17.78" y="55.88" size="1.778" layer="96" rot="R180"/>
@@ -15072,7 +15072,7 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <attribute name="VALUE" x="55.88" y="101.6" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$2" gate="G$1" x="106.68" y="40.64" smashed="yes"/>
-<instance part="PWR" gate="G$1" x="43.18" y="43.18" smashed="yes">
+<instance part="ESP_PWR" gate="G$1" x="43.18" y="43.18" smashed="yes">
 <attribute name="NAME" x="36.83" y="48.895" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.83" y="38.1" size="1.778" layer="96"/>
 </instance>
@@ -15190,17 +15190,17 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <pinref part="U$2" gate="G$1" pin="GND@1"/>
 </segment>
 <segment>
-<wire x1="71.12" y1="17.78" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="17.78" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="17.78" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="20.32" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
-<junction x="60.96" y="17.78"/>
+<wire x1="66.04" y1="20.32" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
+<junction x="66.04" y="17.78"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="60.96" y1="17.78" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="17.78" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="20.32" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="20.32" x2="76.2" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="20.32" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="20.32" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IRL540N" gate="G$1" pin="S"/>
@@ -15310,7 +15310,7 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="35.56" y1="149.86" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="PWR" gate="G$1" pin="2"/>
+<pinref part="ESP_PWR" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <wire x1="38.1" y1="43.18" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
@@ -15347,15 +15347,6 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="17.78" y1="45.72" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RED_LED" class="0">
-<segment>
-<pinref part="ESP32" gate="G$1" pin="IO33"/>
-<wire x1="55.88" y1="58.42" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="48.26" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="RED" gate="G$1" pin="A"/>
-<wire x1="71.12" y1="48.26" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="FAN_PW" class="0">
 <segment>
 <pinref part="IRL540N" gate="G$1" pin="D"/>
@@ -15368,20 +15359,20 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <junction x="109.22" y="86.36"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="YELLOW_R2" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="YELLOW" gate="G$1" pin="C"/>
-<wire x1="60.96" y1="30.48" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="30.48" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="YELLOW_LED" class="0">
 <segment>
 <pinref part="YELLOW" gate="G$1" pin="A"/>
-<wire x1="60.96" y1="40.64" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="ESP32" gate="G$1" pin="IO32"/>
-<wire x1="53.34" y1="58.42" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="40.64" x2="66.04" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="ESP32" gate="G$1" pin="IO25"/>
+<wire x1="58.42" y1="58.42" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="45.72" x2="66.04" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FAN_EN" class="0">
@@ -15401,9 +15392,9 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <segment>
 <pinref part="SG90" gate="G$1" pin="SIG"/>
 <wire x1="20.32" y1="45.72" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="50.8" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="ESP32" gate="G$1" pin="IO34"/>
-<wire x1="48.26" y1="50.8" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="50.8" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="ESP32" gate="G$1" pin="IO32"/>
+<wire x1="53.34" y1="50.8" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -15502,33 +15493,42 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="40.64" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GREEN_LED" class="0">
-<segment>
-<pinref part="GREEN" gate="G$1" pin="A"/>
-<pinref part="ESP32" gate="G$1" pin="IO35"/>
-<wire x1="50.8" y1="40.64" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
+<net name="GREEN_R3" class="0">
 <segment>
 <pinref part="GREEN" gate="G$1" pin="C"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="33.02" x2="50.8" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="33.02" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="RED_R1" class="0">
 <segment>
 <pinref part="RED" gate="G$1" pin="C"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="33.02" x2="71.12" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="33.02" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="ESP_PWR" class="0">
 <segment>
 <pinref part="ESP32" gate="G$1" pin="3V3"/>
 <wire x1="38.1" y1="58.42" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="PWR" gate="G$1" pin="1"/>
+<pinref part="ESP_PWR" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="45.72" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GREEN_LED" class="0">
+<segment>
+<pinref part="GREEN" gate="G$1" pin="A"/>
+<pinref part="ESP32" gate="G$1" pin="IO33"/>
+<wire x1="55.88" y1="40.64" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RED_LED" class="0">
+<segment>
+<pinref part="ESP32" gate="G$1" pin="IO26"/>
+<wire x1="60.96" y1="58.42" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="RED" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="48.26" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -15536,13 +15536,14 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </sheets>
 <errors>
 <approved hash="113,1,106.087,78.74,IRL540N,,,,,"/>
-<approved hash="113,1,51.1217,36.83,GREEN,,,,,"/>
-<approved hash="113,1,61.2817,36.83,YELLOW,,,,,"/>
-<approved hash="113,1,71.4417,36.83,RED,,,,,"/>
-<approved hash="113,1,119.617,101.826,FAN1,,,,,"/>
-<approved hash="113,1,119.617,89.1261,FAN2,,,,,"/>
-<approved hash="113,1,80.2361,142.012,MICROSTEP_X,,,,,"/>
-<approved hash="113,1,31.5239,139.472,MICROSTEP_Y,,,,,"/>
+<approved hash="113,1,56.2017,36.83,GREEN,,,,,"/>
+<approved hash="113,1,66.3617,36.83,YELLOW,,,,,"/>
+<approved hash="113,1,76.5217,36.83,RED,,,,,"/>
+<approved hash="113,1,119.617,101.796,FAN1,,,,,"/>
+<approved hash="113,1,119.617,89.0956,FAN2,,,,,"/>
+<approved hash="113,1,80.2056,142.012,MICROSTEP_X,,,,,"/>
+<approved hash="113,1,31.5544,139.472,MICROSTEP_Y,,,,,"/>
+<approved hash="113,1,43.0513,45.9461,ESP_PWR,,,,,"/>
 </errors>
 </schematic>
 </drawing>
