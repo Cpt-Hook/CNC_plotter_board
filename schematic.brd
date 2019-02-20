@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1946,7 +1946,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="ESP32" library="ESP32-GOOUUU" package="ESP32--GOOUUU" value="ESP32-GOOUUU" x="69.85" y="17.78" smashed="yes">
-<attribute name="NAME" x="45.72" y="33.401" size="1.27" layer="21"/>
+<attribute name="NAME" x="80.01" y="2.54" size="1.27" layer="21"/>
 </element>
 <element name="DRIVER_X" library="IC_mine" package="A4988_STEP" value="A4988_STEP" x="66.04" y="45.085" smashed="yes">
 <attribute name="NAME" x="66.04" y="56.515" size="1.27" layer="21" align="center"/>
