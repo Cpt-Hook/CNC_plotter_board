@@ -15543,7 +15543,7 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <approved hash="113,1,119.617,89.0956,FAN2,,,,,"/>
 <approved hash="113,1,80.2056,142.012,MICROSTEP_X,,,,,"/>
 <approved hash="113,1,31.5544,139.472,MICROSTEP_Y,,,,,"/>
-<approved hash="113,1,43.0513,45.9461,ESP_PWR,,,,,"/>
+<approved hash="113,1,43.0513,45.9156,ESP_PWR,,,,,"/>
 </errors>
 </schematic>
 </drawing>

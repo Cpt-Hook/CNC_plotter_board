@@ -211,7 +211,7 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "board_outline": false,
+                    "board_outline": true,
                     "config": {
                         "file_function": "Legend",
                         "index": 1,
@@ -222,7 +222,7 @@
                         21,
                         25
                     ],
-                    "milling": false,
+                    "milling": true,
                     "name": "Silkscreen Top",
                     "polarity": "positive",
                     "type": "gerber_layer"
