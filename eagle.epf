@@ -264,19 +264,11 @@ UsedLibraryUrn="urn:adsk.eagle:library:196"
 UsedLibraryUrn="urn:adsk.eagle:library:197"
 UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
-UsedLibrary="/home/standa/EAGLE/libraries/ESP32-GOOUUU.lbr"
-UsedLibrary="/home/standa/EAGLE/libraries/IC_mine.lbr"
-UsedLibrary="/home/standa/EAGLE/libraries/Rembrandt Electronics - JST XH Connectors v1-0.lbr"
-UsedLibrary="/home/standa/EAGLE/libraries/SparkFun-3-2-07.lbr"
-UsedLibrary="/home/standa/EAGLE/libraries/linear_my.lbr"
-UsedLibrary="/home/standa/EAGLE/libraries/mine.lbr"
-UsedLibrary="/home/standa/EAGLE/libraries/pinhead.lbr"
-UsedLibrary="/home/standa/EAGLE/libraries/reprap.lbr"
 
 [Win_1]
 Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="3840 1080"
+Screen="1366 768"
 Window="Win_1"

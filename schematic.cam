@@ -49,7 +49,7 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "board_outline": true,
+                    "board_outline": false,
                     "config": {
                         "file_function": "Copper",
                         "layer": 1,
@@ -75,7 +75,7 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "board_outline": true,
+                    "board_outline": false,
                     "config": {
                         "file_function": "Copper",
                         "layer": 2,
@@ -211,7 +211,7 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "board_outline": true,
+                    "board_outline": false,
                     "config": {
                         "file_function": "Legend",
                         "index": 1,
